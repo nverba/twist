@@ -1,0 +1,31 @@
+{
+  "name": "twist",
+  "version": "1.0.0",
+  "description": "Basic template preprocessor for small static sites",
+  "main": "twist.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nverba/twist"
+  },
+  "keywords": [
+    "basic",
+    "html",
+    "template",
+    "preprocessor"
+  ],
+  "author": "nverba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nverba/twist/issues"
+  },
+  "homepage": "https://github.com/nverba/twist",
+  "devDependencies": {
+    "karma": "^0.12.32",
+    "karma-chrome-launcher": "^0.1.12",
+    "karma-mocha": "^0.1.10",
+    "mocha": "^2.2.5"
+  }
+}
