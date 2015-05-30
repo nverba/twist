@@ -12,7 +12,7 @@ module.exports = {
     for(var name in data) {
       if (data[name] instanceof Array) {
 
-        var partial = fs.readFileSync('./partials/' + name + '.html', 'utf8').trim();
+        var partial = fs.readFileSync('./partials/' + name + '/' + name + '.html', 'utf8').trim();
         var collection = '';
 
         data[name].forEach(function (item) {
